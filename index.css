@@ -3,17 +3,30 @@
     padding: 0;
 }
 body{
-    background-color: darkorchid;
     font-family: Helvetica;
 }
 h1, h2, h3, p {
-    color: white;
+    color: rgba(5, 15, 155, 0.89);
 }
 header{
-    background-color: violet;
+    background-color: rgba(5, 15, 155, 0.89);
 }
 header h1{
-    color:black;
+    color: cornflowerblue;
+    padding: 20px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    padding: 0 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+header nav ul li a:hover{
+    color: darkcyan;
 }
 header section{
     display: inline-block;
@@ -22,4 +35,43 @@ header section{
 }
 input{
     border-radius: 6px;
+}
+.hero{
+    background-image: url(https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/10/11/Recortada/img_mbigas_20180712-140839_imagenes_lv_terceros_oia-352_4_5_853497843-kZlG-U452301500640jID-992x558@LaVanguardia-Web.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: gainsboro;
+}
+.hero h2{
+    color:black;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px cornsilk;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container img{
+    width: 300px;
+}
+
+h3{
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: gray;
+    text-align: center;
+}
+footer p{
+    padding-top: 40px;
+    color: white;
 }
