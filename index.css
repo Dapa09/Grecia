@@ -11,6 +11,7 @@ h1, h2, h3, p {
 header{
     background-color: rgba(5, 15, 155, 0.89);
 }
+
 header h1{
     color: cornflowerblue;
     padding: 20px;
@@ -74,4 +75,10 @@ footer{
 footer p{
     padding-top: 40px;
     color: white;
+}
+
+@media screen and (min-width:0px) and (max-width: 500px) {
+    header{
+        background-color: gray;
+    }
 }
